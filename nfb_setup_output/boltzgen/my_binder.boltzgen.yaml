@@ -1,0 +1,13 @@
+name: my_binder
+target:
+  pdb: inputs/target_truncated_selected.pdb
+  chains:
+  - R
+binder:
+  length:
+  - 65
+  - 180
+hotspots:
+- R172
+- R177
+- R257
