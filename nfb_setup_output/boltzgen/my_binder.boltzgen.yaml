@@ -1,13 +1,15 @@
-name: my_binder
-target:
-  pdb: inputs/target_truncated_selected.pdb
-  chains:
-  - R
-binder:
-  length:
-  - 65
-  - 180
-hotspots:
-- R172
-- R177
-- R257
+entities:
+- protein:
+    id: B
+    sequence: 65..120
+- file:
+    path: inputs/target_truncated_selected.pdb
+    include:
+    - chain:
+        id: A
+        res_index: 5..20,60..90,136..188,248..277
+    structure_groups: all
+    binding_types:
+    - chain:
+        id: A
+        binding: 151,177,258,262

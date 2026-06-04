@@ -4,7 +4,7 @@
 set -euo pipefail
 
 # CHANGE THIS: path to your nf-binder-design clone
-WF_PATH="/fs04/scratch2/nx54/jmobbs/software/nf_binder/nf-binder-design/"
+export WF_PATH="/fs04/scratch2/nx54/jmobbs/software/nf_binder/nf-binder-design/"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 METHOD_DIR="$(cd "${SCRIPT_DIR}" && pwd)"
