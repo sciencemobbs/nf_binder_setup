@@ -7,9 +7,9 @@ entities:
     include:
     - chain:
         id: A
-        res_index: 5..20,60..90,136..188,248..277
+        res_index: 1..130
     structure_groups: all
     binding_types:
     - chain:
         id: A
-        binding: 151,177,258,262
+        binding: 63,89,111,115
