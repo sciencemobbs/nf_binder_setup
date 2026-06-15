@@ -5,6 +5,6 @@
   "design_name": "my_binder",
   "protocol": "protein-anything",
   "num_designs": 500,
-  "batch_size": 20,
-  "budget": 50
+  "batch_size": 5,
+  "budget": 10
 }

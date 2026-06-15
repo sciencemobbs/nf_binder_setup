@@ -3,11 +3,11 @@
   "input_pdb": "inputs/target_truncated_selected.pdb",
   "outdir": "results/bindcraft",
   "design_name": "my_binder",
-  "hotspot_res": "A151,A177,A258,A262",
-  "binder_length_range": "65-120",
-  "bindcraft_n_traj": 1000,
-  "bindcraft_batch_size": 5,
-  "bindcraft_advanced_settings_preset": "default_4stage_multimer",
+  "hotspot_res": "A188,A465,A477",
+  "binder_length_range": "55-110",
+  "bindcraft_n_traj": 500,
+  "bindcraft_batch_size": 1,
+  "bindcraft_advanced_settings_preset": "default_4stage_multimer_hardtarget",
   "bindcraft_filters_preset": "default_filters",
-  "contigs": "[A5-20/A60-90/A136-188/A248-277/0 65-120]"
+  "contigs": "[A26-42/A81-113/A157-204/A454-486/0 55-110]"
 }

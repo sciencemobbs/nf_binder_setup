@@ -3,13 +3,13 @@
   "input_pdb": "inputs/target_truncated_selected.pdb",
   "outdir": "results/rfd",
   "design_name": "my_binder",
-  "contigs": "[A5-20/A60-90/A136-188/A248-277/0 65-120]",
-  "hotspot_res": "A151,A177,A258,A262",
-  "rfd_n_designs": 5000,
+  "contigs": "[A26-42/A81-113/A157-204/A454-486/0 55-110]",
+  "hotspot_res": "A188,A465,A477",
+  "rfd_n_designs": 500,
   "rfd_batch_size": 5,
   "rfd_filters": "rg<22",
-  "pmpnn_seqs_per_struct": 2,
-  "pmpnn_relax_cycles": 5,
+  "pmpnn_seqs_per_struct": 1,
+  "pmpnn_relax_cycles": 1,
   "af2ig_recycle": 3,
   "rfd_model_path": "${WF_PATH}/models/rfdiffusion/Complex_beta_ckpt.pt",
   "pmpnn_weights": "${WF_PATH}/models/HyperMPNN/retrained_models/v48_020_epoch300_hyper.pt",
@@ -17,5 +17,5 @@
   "refold_af2ig_filters": "pae_interaction<=10;plddt_binder>=80",
   "refold_max": 200,
   "refold_use_msa_server": true,
-  "refold_target_templates": "inputs/target_original.pdb"
+  "refold_target_templates": "inputs/reference.pdb"
 }

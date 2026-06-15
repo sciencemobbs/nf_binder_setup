@@ -1,15 +1,15 @@
 entities:
 - protein:
     id: B
-    sequence: 65..120
+    sequence: 55..110
 - file:
     path: inputs/target_truncated_selected.pdb
     include:
     - chain:
         id: A
-        res_index: 1..130
+        res_index: 1..131
     structure_groups: all
     binding_types:
     - chain:
         id: A
-        binding: 63,89,111,115
+        binding: 82,110,122
